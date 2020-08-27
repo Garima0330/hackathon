@@ -1,0 +1,19 @@
+
+.left{ background-image:url('../../assets/images/right.jpg');background-position:initial;background-repeat:no-repeat;width:50%;height:100vh;background-size: cover;float:left}
+
+.right{ background-image:url('../../assets/images/selerleft.jpeg');background-position:initial;background-repeat:no-repeat;background-size:cover;width:50%;height:100vh;float:right;}
+
+button {position: relative;left: 50%; background-color:rgb(104, 202, 219);border: none;  border-radius:5px;color:#ccc;font-size: 1.5rem;letter-spacing:2px;}
+
+#button1{text-align:center;font-size:2rem;color:rgb(167, 64, 4); position:relative;left:50%;top:35%;transform: translate3d(-50%, -35%, 0);}
+
+button #button1 {top: 50%;transform: translate3d(-50%, -50%, 0);}
+  
+.button {display: block;width: 340px;height: 80px; cursor: pointer;transition:box-shadow 0.1s radial;}
+
+button :hover { box-shadow:15px 10px 0 rgba(243, 240, 240, 0.925); }
+
+.btn-1{margin-left:50%;margin-top: 60%;}
+
+.btn-2{ margin-left:50%;}
+ 

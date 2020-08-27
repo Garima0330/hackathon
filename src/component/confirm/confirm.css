@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.background{background-image: url('../../assets/images/confirm.jpg');background-position: center;background-size:cover;height:100vh;}
+
+.content{float: right;width:40%;margin-top:10%; font-family: 'Anton', sans-serif;font-size:20px;color:rgb(36, 97, 138);}
