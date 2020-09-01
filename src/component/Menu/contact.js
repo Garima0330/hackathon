@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+
 import './contact.css';
 class Contact extends Component {
     render() {
@@ -6,9 +10,11 @@ class Contact extends Component {
             <div className="Contact">
                 <footer>
                     <div id="box">
-                        <h3> #JOINO'PICKUP</h3>
+                        <h3> #JOIN O'PICKUP</h3>
                         <h3 id="icon" text-align="center" > CONTACT US :)</h3>
-                        <p>pics</p>
+                         <MailOutlineIcon fontSize="large"/>
+                         <InstagramIcon fontSize="large"/>
+                         <FacebookIcon fontSize="large" />
                         <ul>
                             <li> My Account</li>
                             <li> Items</li>
