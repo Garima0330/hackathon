@@ -12,26 +12,30 @@ import Search from './component/shopdisplaying/search';
 import Page from './component/shopdisplaying/pagination';
 import { Button } from '@material-ui/core';
 import Contact from './component/Menu/contact';
+//import Registration from './components/Registration';
+//import SignupUser from './components/SignupUser/UserForm'
+//import { UserForm } from './components/SignupUser/UserForm';
+//import Shoplist from './components/todolist';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Menu from './component/Menu/Menu';
 export const UserContext = createContext()
 
 
-const Routing = ()=>{
-  const {state,dispatch} = useContext(UserContext)
-  useEffect(()=>{
-    const user = JSON.parse(localStorage.getItem("user"))
-    if(user){
-      dispatch({type:"USER",payload:user})
-    }
-  },[])
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="app">
-//       <Menu/>
-//       </div>
+// const Routing = ()=>{
+//   const {state,dispatch} = useContext(UserContext)
+//   useEffect(()=>{
+//     const user = JSON.parse(localStorage.getItem("user"))
+//     if(user){
+//       dispatch({type:"USER",payload:user})
+//     }
+//   },[])
+class App extends Component {
+  render() {
+    return (
+      <div className="app">
+      <Menu/>
+      </div>
        
-//     );
-// }
+    );
+}
 export default App;
