@@ -1,0 +1,12 @@
+<Router>
+        <Switch>
+          <Route exact path='/' component={Menu} />
+          <Route exact path='/About' component={About} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/buyer' component={Buyer} />
+          <Route exact path='/seller' component={Seller} />
+          <Route exact path='/seller2' component={Seller2} />
+          <Route exact path='/confirm' component={Confirm} />
+          <Route exact path='/seller3' component={Seller3} />
+        </Switch>
+      </Router>

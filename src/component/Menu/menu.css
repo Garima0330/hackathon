@@ -1,3 +1,6 @@
+*{ margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 
 section {position: relative;width: 100%;height:30vh; background: #ff9966; background: -webkit-linear-gradient(to left, #ff5e62, #ff9966);background: linear-gradient(to left, #ff5e62, #ff9966); overflow :hidden;}
 
@@ -11,18 +14,41 @@ section .wave.wave2{animation: animate2 4s linear infinite;z-index:997;opacity:0
 
 @keyframes animate2{from {left:0px; } to{left:-100px; }}
 
-ul{ list-style-type: none;color:white;display:block; overflow: hidden; } 
+#Banner{width: 50%;padding:12px 2px 9px 7px;position:relative; }
 
-li{transition: transform .2s;}
+.item{float: right;position: relative;color:saddlebrown;font-family: 'STIX Two Math', serif;font-size:35px;background-color: #805433;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");border-radius:30px;margin:31px 45px 9px 7px;height: 50vh;}
 
-li  {color: white;padding:14px 16px;text-decoration:none;float:right;}
-    
-li:hover {color:whitesmoke; transform: scale(1.7); } 
+ul{ color:aliceblue}
 
-.main {display: flex;}
+.middle-section{justify-content: center;display: flex;position: relative;padding: auto;}
 
-.column{flex:70%;} 
+.article {justify-content: center;display: grid;position: relative;padding:30px 0px 30px 0px ;}
 
-.main:after {content: ""; display: table;clear: both; }
+#content{height:1000px;background-color:rgba(196, 185, 185, 0.726);font-size:36px ;color: black;}
 
-.right{margin-left:15%;float:right;}
+.Note{ background-color: #f78146;justify-content: center;display: flex;position: relative;padding:4px;}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
+.buttons{float:right}
+
+.container {clip: rect(0, auto, auto, 0);
+  overflow: hidden;
+  position: absolute;
+  height: 50vh;
+  left: 0;
+  width: 100%;
+  top: 0;
+}
+
+.container_solid .title_wrapper h1 {
+  /* the text background */
+  background: url(../../assets/images/shop1.jpg);
+  
+  background-size: 100vw auto;background-position: center;-webkit-text-fill-color: transparent;background-clip: text;-webkit-background-clip: text;color: black;
+}
+
+.container {background-image: url(../../assets/images/shop1.jpg);opacity:50%;background-size:100vw auto;background-position: center;background-attachment: fixed;top: 150vh;}
+
+.Parallax {height:50vh;max-width: 800px;}
+.Parallax p {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";}

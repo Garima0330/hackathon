@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import stry from './../../assets/images/story.jpeg';
+import stry from './../../assets/images/shop1.jpg';
 import mission from './../../assets/images/mission.jpeg';
 import goal from './../../assets/images/goal.jpeg';
+import Contact from './contact';
 import './about.css';
 class About extends Component {
     render() {
@@ -20,7 +21,7 @@ class About extends Component {
                     </ul>
                     </div>
                 </section>
-
+                <span style ={{textAlign :'center'}} ><h2>ABOUT US:)</h2></span>
                 <div id="mainbox">
                     <div id="subbox">
                         <div className="innerbox-1">
@@ -55,6 +56,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
+                <footer><Contact/></footer>
             </div>
         );
     }
